@@ -25,7 +25,7 @@ namespace ClassLibraryFibonacci
             long b = 1;
 
             for (int i = 0; i < n; i++) {
-                int temp = a;
+                long temp = a;
                 a = b;
                 b = temp + b;
             }
