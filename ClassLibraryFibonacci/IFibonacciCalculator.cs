@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassLibraryFibonacci
-{
-    public class Class1
-    {
+namespace ClassLibraryFibonacci {
+   public interface IFibonacciCalculator {
+
+        long FFibonacciSeries(long n);
     }
 }
